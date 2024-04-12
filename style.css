@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+   background-image: url(https://wallpapercave.com/wp/wp9764093.jpg);
+display: flex; 
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+justify-content: center;
+align-items: center;
+
+min-height: 100vh;
+font-family: poppins;
+
+}
+.reg{
+ 
+    justify-content: center;
+}
+ *{
+    font-family: Poppins;
+ }
+.navlist{
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    bottom: 380px;
+    gap: 2rem;
+    
+left: 200px;
+  
+}
+.navlist li{
+ list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 40px
+    ;
+ 
+}
+.form{
+ 
+backdrop-filter: blur(5px);
+    color: azure;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+   box-shadow: 0 0 50px rgb(185, 185, 185);
+ padding: 0%;
+ align-items: center;
+  
+}
+.input-box input{
+border-radius: 0px;
+border-bottom: 2px solid rgb(255, 255, 255);
+background-color: transparent;  
+ 
+font-size: 15px;
+color: beige;
+border: no;
+margin: 20px; 
+border-top: none;
+outline: none;
+border-left: none;
+border-right: none;
+width: 70%;
+height: 30px;
+padding: 0 35px 0 5px;
+}
+
+.checkbox{
+    font-size: small;
+    margin-top: 15px;
+    color: beige;
+    justify-content: space-between;
+    
+}
+button {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    font-size: large;
+    font-family: Poppins;
+    cursor: grab;
+}
+.input-box i{
+    position: relative;
+    right: 36px;
+   
+}
+
+
+
+
+
+
+.Register{
+    font-size: small;
+    margin-top: -15px 0 15px;
+    color: beige;
+    justify-content: space-between;
+    display: flex
+    
+    ;
+    justify-content: space-around;
+    text-decoration: none;
+    
+}
+.forn{
+ 
+    backdrop-filter: blur(5px);
+        color: azure;
+        border-radius: 20px;
+        text-align: center;
+        width: 400px;
+        height: 500px;
+       box-shadow: 0 0 50px rgba(255, 255, 255, 0.671);
+     padding: 0%;
+     align-items: center; }
+     button:hover{
+        background-color: transparent;
+        color: white
+     }
+   
